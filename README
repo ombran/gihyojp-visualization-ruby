@@ -1,0 +1,15 @@
+gihyo.jpで紹介されている情報可視化のプログラムを勝手にRuby言語で書き換えたものです。
+元記事：具体例で学ぶ！情報可視化のテクニック
+	http://gihyo.jp/dev/feature/01/visualization
+
+
+フォルダの対応
+visualization2：第2回 階層的クラスタリングによる特徴抽出
+visualization4：第3,4回 ツリーマップによる木構造の可視化
+visualization5：第5回 はてなブックマークの可視化(前編)
+visualization6：第6回 はてなブックマークの可視化(後編)
+
+
+プログラム内で画像作成のためにRMagickを、JSONパーサのためにjsonライブラリを用いるのでgem等でインストールしておいてください。
+# gem install rmagick
+# gem install json
